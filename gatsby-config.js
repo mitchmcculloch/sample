@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'A-Game Cafe',
     description: 'A new blog!',
+    siteUrl: 'https://heuristic-stallman-530c06.netlify.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -41,5 +42,7 @@ module.exports = {
     //'gatsby-plugin-offline',
     'gatsby-transformer-remark',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-sitemap',
   ],
 }
