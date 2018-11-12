@@ -1,4 +1,4 @@
 ---
-name: test
+title: test
 bio: test!
 ---
