@@ -40,5 +40,6 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     //'gatsby-plugin-offline',
     'gatsby-transformer-remark',
+    'gatsby-plugin-netlify',
   ],
 }
