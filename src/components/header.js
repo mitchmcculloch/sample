@@ -14,30 +14,31 @@ const HeaderWrapper = styled.div`
 const HeaderContainer = styled.div`
   margin: 0 auto;
   max-width: 100%;
+  height: 18rem;
   padding: 0.4rem;
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: repeat(4, 1fr);
+  a {
+    color: white;
+    text-decoration: none;
+  }
   h1 {
     padding-left: 4rem;
     padding-top: 1.2rem;
+  }
+  img {
+    height: 14rem;
+    vertical-align: middle;
   }
 `
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
-      <img src={logo} alt="A game logo" style={{ width: '150px' }} />
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <Link to="/games">Games!</Link>
+      <Link to="/">
+        <img src={logo} alt="A game logo" />
+      </Link>
     </HeaderContainer>
   </HeaderWrapper>
 )

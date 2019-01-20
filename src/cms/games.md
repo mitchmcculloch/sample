@@ -1,4 +1,5 @@
 ---
+title: Games
 games: |
   13 Clues
   3 Wishes
@@ -421,4 +422,3 @@ games: |
   You Gotta Be Kitten Me
   Zombie Dice
 ---
-

@@ -15,3 +15,17 @@ collections:
     fields: 
       - { label: "Team Member", name: "title", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
+
+  - label: "Content"
+    name: "content"
+    files: 
+      - label: "Games"
+        name: "games"
+        file: "src/cms/games.md"
+        fields:
+          - {label: "Games", name: "games", widget: "text"}
+      - label: "Menu"
+        name: "menu"
+        file: "src/cms/menu.md"
+        fields:
+          - {label: "Menu", name: "menu", widget: "markdown"}
