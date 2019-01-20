@@ -373,6 +373,7 @@ games: |
   The Castles of Burgundy
   The Castles of Burgundy: The Card Game
   The Duke
+  The Mind
   The Struggle for Catan
   Through the Ages
   Through the Desert
